@@ -9,7 +9,7 @@ import { Navbar } from "./navbar";
 export const CompOne = () => {
 	return (
 
-		<Parallax className="image" blur={1} bgImage={image1} bgImageAlt="the cat" strength={800}>
+		<Parallax className="image" blur={1} bgImage={image1} bgImageAlt="the cat" strength={200}>
 			<div className=" nav1 align-baseline">
 				<a className="links m-2">Products</a>
 				<a className="links m-2">Whay we do</a>

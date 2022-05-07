@@ -9,7 +9,6 @@ import { CompTwo } from "../component/comptwo";
 export const Home = () => (
 	<div className="text-center">
 			<CompOne />
-			<TextBox/>
 			<CompTwo/>
 		</div>
 

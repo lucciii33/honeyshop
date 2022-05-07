@@ -2,23 +2,26 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Parallax } from 'react-parallax';
 import image1 from "../../img/bg.jpg";
-import obj1 from "../../img/obj1.png";
+import image2 from "../../img/image2.jpg";
+import image3 from "../../img/image3.jpg";
+import image4 from "../../img/image4.jpg";
+
 
 
 export const CompTwo = () => {
 	return (
 
-		<Parallax className="image" blur={1} bgImage={image1} bgImageAlt="the cat" strength={800}>
+		<Parallax className="image" blur={1} bgImage={image1} bgImageAlt="the cat" strength={200}>
 			<div className="section2 align-baseline">
-				<div className="sectioncard">
-					<img></img>
-				</div>
-				<div>
-					<img></img>
-				</div>
-				<div>
-					<img></img>
-				</div>
+				
+					<img src={image2}  className="imagecard"></img>
+				
+				
+					<img src={image3}  className="imagecard"></img>
+				
+				
+					<img src={image4} className="imagecard"></img>
+				
 			</div>
 		</Parallax>
 	);
