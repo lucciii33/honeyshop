@@ -6,15 +6,19 @@ import obj1 from "../../img/obj1.png";
 import { Navbar } from "./navbar";
 
 
+
 export const CompOne = () => {
 	return (
 
 		<Parallax className="image" blur={1} bgImage={image1} bgImageAlt="the cat" strength={200}>
-			<div className=" nav1 align-baseline">
-				<a className="links m-2">Products</a>
-				<a className="links m-2">Whay we do</a>
-				<a className="links m-2">Why us</a>
-				<a className="links m-2">Contact</a>
+			<div className="m-4">
+
+			<div className="nav1 align-baselin">
+				<h2 className="links m-2">Products</h2>
+				<h2 className="links m-2">Whay we do</h2>
+				<h2 className="links m-2">Why us</h2>
+				<h2 className="links m-2">Contact</h2>
+			</div>
 			</div>
 			<div className="content">
 				<div className="center">
@@ -29,6 +33,7 @@ export const CompOne = () => {
 
 
 
+				
 			</div>
 		</Parallax>
 	);

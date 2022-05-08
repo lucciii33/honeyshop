@@ -10,8 +10,13 @@ import image4 from "../../img/image4.jpg";
 
 export const CompTwo = () => {
 	return (
-
+		
 		<Parallax className="image" blur={1} bgImage={image1} bgImageAlt="the cat" strength={200}>
+			<div className="containercard">
+			<div className="textbox m-0">
+			<h3>Loremipsum</h3>
+			<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+			</div>
 			<div className="section2 align-baseline">
 				
 					<img src={image2}  className="imagecard"></img>
@@ -23,6 +28,7 @@ export const CompTwo = () => {
 					<img src={image4} className="imagecard"></img>
 				
 			</div>
+		</div>
 		</Parallax>
 	);
 };
