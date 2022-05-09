@@ -1,6 +1,13 @@
 .image {
     position: relative;
-    height: 100vh;
+    height: auto;
+    width: 100%;
+  }
+  .imageconta{
+    position: relative;
+    height: 780px;
+    width: 100%;
+    
   }
   .content {
     display: flex;
@@ -34,6 +41,7 @@
   .obj{
       width: 400px;
       height: auto;
+    margin-bottom: 2400px;
   }
   .links{
     text-decoration: none;
@@ -50,6 +58,14 @@
     margin-right: 200px;
     font-weight: 15px;
     margin-bottom: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 35px;
+
   }
   .center2{
     align-content: center; /* aligns vertically */
@@ -66,35 +82,39 @@
   }
   .textbox1{
     background-color: #ffe4b5;
-    height: 75px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    padding: 35px;
+  }
+  .circleparent{
+    display: flex;
+    height: 370px;
+    width: 370px;
+    border-radius: 30%;
+    background: #ffe4b5;
+    margin-bottom: 125px;
+    box-shadow: 0 0 50px #502201;
+    margin-right: 80px;
   }
   .circle{
-    width: 400px;
-    height: auto;
-    border-radius: 50%;
-    background-color: #ffe4b5;
-    margin-bottom: 35px;
-    align-items: center;
-    box-shadow: 0 0 50px #502201;
-    }
-  .circle2{
-    width: 200px;
-  
-    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+    border-radius: 30%;
     background-color: #502201;
-    align-items: center;
-    box-shadow: 0 0 50px #502201;
+    margin-bottom: 45px;
     margin: auto;
-    }
 
+    }
 /* CSS */
 .button-24 {
-  background: #ffe4b5;
-  border: 1px solid #ffe4b5;
+  background: #502201;
+  border: 1px solid #502201;
   border-radius: 6px;
   box-shadow: rgba(75, 36, 0, 0.959) 1px 2px 4px;
   box-sizing: border-box;
-  color: #502201;
+  color: #ffe4b5;
   cursor: pointer;
   display: inline-block;
   font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
@@ -115,9 +135,10 @@
 
 .button-24:hover,
 .button-24:active {
-  background-color: #502201;
+  background-color: #ffe4b5;
   background-position: 0 0;
-  color: #ffe4b5;
+  color: #502201;
+  border: 1px solid #ffe4b5;
 }
 
 .button-24:active {
@@ -126,7 +147,7 @@
 .section2{
   display: flex;
   justify-content: space-around;
-  margin-bottom: 200px;
+  margin-bottom: 450px;
   margin-right: 250px;
 }
 .sectioncard{
@@ -139,7 +160,7 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-border-radius: 50%;
+border-radius: 30%;
 box-shadow: 0 0 50px #502201;
 }
 .containercard{
@@ -159,7 +180,7 @@ box-shadow: 0 0 50px #502201;
   align-items: center;
   width:300px ;
   height:300px ;
-  border-radius:50% ;
+  border-radius:30% ;
   backface-visibility: hidden;
   transition: 1s;
 }
@@ -187,4 +208,24 @@ box-shadow: 0 0 50px #502201;
 }
 .letter{
   color: #502201;
+}
+.form{
+  margin-bottom: 100px;
+  display: grid;
+  margin-left: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 35px;
+
+
+}
+.input{
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  padding: 8px;
 }

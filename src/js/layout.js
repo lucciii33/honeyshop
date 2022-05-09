@@ -9,6 +9,7 @@ import injectContext from "./store/appContext";
 import { CompOne } from "./component/compone";
 import { TextBox } from "./component/texbox";
 import { CompTwo } from "./component/comptwo";
+import { CompContact } from "./component/compcontact";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";

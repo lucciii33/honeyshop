@@ -33,13 +33,15 @@ export const CompOne = () => {
 					<h5>Lorem ipsum dolor sit amet</h5> 
 					<button type="button" class="button-24">Lightlarge</button>
 				</div>
-				<div className="">
+				<div className="circleparent ">
 
-				<div className="circle">
+				<div className="circle position-relative">
 
-					<div className="circle23">
-					<img src={obj1} className="obj"></img>
-					</div>
+					
+
+					<img src={obj1} className="obj position-absolute top-50 start-50 translate-middle"></img>
+					
+					
 				</div>
 				</div>
 
