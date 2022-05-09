@@ -2,6 +2,11 @@
     position: relative;
     height: auto;
   }
+  .caroimage{
+    height: 400px;
+    width: 700px;
+    object-fit: fill;
+  }
   .imageconta{
     position: relative;
     height: 780px;
