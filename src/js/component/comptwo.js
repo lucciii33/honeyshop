@@ -26,7 +26,7 @@ export const CompTwo = () => {
 						</div>
 						<div className="back">
 							<h2 className="letter mt-5">how we do it?</h2>
-							<button className="button-24 mb-5">click here</button>
+							<Link to="/howwedoit"><button className="button-24 mb-5">click here</button></Link>
 						</div>
 					
 					</div>
